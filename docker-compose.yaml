@@ -4,7 +4,7 @@ services:
   nginx:
     build:
       context: ./docker/nginx
-    container_name: php8-nginx
+    container_name: react-symfony-nginx
     restart: always
     ports:
       - "8080:80"
@@ -13,6 +13,6 @@ services:
   php-fpm:
     build:
       context: ./docker/php-fpm
-    container_name: php8-php-fpm
+    container_name: react-symfony-php-fpm
     volumes:
       - ./codebase:/app
