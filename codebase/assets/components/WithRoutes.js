@@ -4,9 +4,10 @@ import {
     Home, About, Contact, Services, CompanyHistory
 } from "./pages";
 
-function Main() {
+function WithRoutes() {
     return (
         <div>
+            <p>Our Services</p>
             <Routes>
                 <Route exact path="/" element={ <Home /> } />
                 <Route path="/about" element={ <About /> } >
@@ -19,4 +20,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default WithRoutes;

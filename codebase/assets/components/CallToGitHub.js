@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useReducer } from 'react';
 
-function App() {
+function CallToGitHub() {
        const [data, setData] = useState(null);
        const [loading, setLoading] = useState(false);
        const [error, setError] = useState(null);
@@ -36,4 +36,4 @@ function App() {
        </div>;
 }
 
-export default App;
+export default CallToGitHub;

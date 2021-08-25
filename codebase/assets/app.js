@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/app.css';
-import Main from './components/Main';
+import WithRoutes from './components/WithRoutes';
 import { BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render(<Router> <Main /> </Router> , document.getElementById('root'));
+ReactDOM.render(<Router> <WithRoutes /> </Router> , document.getElementById('root'));
